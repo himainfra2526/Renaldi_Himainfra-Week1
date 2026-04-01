@@ -1,0 +1,56 @@
+body {
+    font-family: Tahoma;
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+input{
+    display: block;
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+input:focus{
+    background-color: antiquewhite;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+button:hover{
+    background-color: rgb(128, 204, 207);
+}
+
+#list {
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background: white;
+  border-radius: 15px;
+}
+
+.card h4 {
+  margin: 0;
+}
+
+.card p {
+  margin: 5px 0 0;
+}
+
+hr{
+    width: 30%;
+    margin-left: 0px;
+}

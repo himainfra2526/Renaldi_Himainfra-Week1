@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Project Week 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h3>Input</h3>
+    <input type="text" id="matkul" placeholder="Mata kuliah">
+    <input type="text" id="tahun" placeholder="Tahun">
+    <button type="button" onclick="tambahData()">Tambah</button>
+
+    <hr>
+
+    <h3>Search</h3>
+    <input type="text" id="search" placeholder="Cari matkul...">
+
+    <h3>Hasil</h3>
+    <div id="list"></div>
+
+    <button onclick="loadData()">Refresh Data</button>
+
+    <p id="loading"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
